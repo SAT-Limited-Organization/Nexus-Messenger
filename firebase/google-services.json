@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "815554441605",
+    "firebase_url": "https://sat-limited-default-rtdb.firebaseio.com",
+    "project_id": "sat-limited",
+    "storage_bucket": "sat-limited.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815554441605:android:6e1fef84181dfaefb954ec",
+        "android_client_info": {
+          "package_name": "com.sat_limited.nexus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815554441605-h4d19eaev0u5atrttdo4i6moplofrnru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sat_limited.nexus",
+            "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
+          }
+        },
+        {
+          "client_id": "815554441605-rk4rf2cfceqkgf8nraioahpkdjv0paku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sat_limited.nexus",
+            "certificate_hash": "929ffa7a5a255d1badeaff592247b5b9dc86ba28"
+          }
+        },
+        {
+          "client_id": "815554441605-k7rume8dhbpe2r9ebik6kete28mv56kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGAHfpTpcCmxKSXLIxD095z7rWN7_LogY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815554441605-k7rume8dhbpe2r9ebik6kete28mv56kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815554441605:android:4fdde2f0fa53c648b954ec",
+        "android_client_info": {
+          "package_name": "com.sat_limited.satmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815554441605-m39fts8th2rilt9h802ln5fc9r0a4i55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sat_limited.satmessenger",
+            "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
+          }
+        },
+        {
+          "client_id": "815554441605-plvqg30a0g7etsam4phoi54i0k343s9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sat_limited.satmessenger",
+            "certificate_hash": "23267d2cdad7c952639c2ea9ef48d46b281c784d"
+          }
+        },
+        {
+          "client_id": "815554441605-k7rume8dhbpe2r9ebik6kete28mv56kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGAHfpTpcCmxKSXLIxD095z7rWN7_LogY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815554441605-k7rume8dhbpe2r9ebik6kete28mv56kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

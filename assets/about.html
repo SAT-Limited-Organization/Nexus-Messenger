@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About Nexus Messenger</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 24px;
+      color: #111;
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    /* Header */
+
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .hamburger {
+      font-size: 26px;
+      cursor: pointer;
+      margin-right: 15px;
+      user-select: none;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+      text-align: left;
+    }
+
+
+    /* Side Navigation */
+
+    .side-nav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.08);
+      border-right: 1px solid #eee;
+    }
+
+    .side-nav a {
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 17px;
+      color: #111;
+      display: block;
+      transition: 0.2s;
+      border-bottom: 1px solid #eee;
+    }
+
+    .side-nav a:hover {
+      background: #f5f5f5;
+    }
+
+    .side-nav .closebtn {
+      font-size: 20px;
+      font-weight: 600;
+      color: #111;
+    }
+
+
+    /* Main About Card */
+
+    .about-card {
+      margin-top: 35px;
+      padding: 30px 20px;
+      text-align: center;
+      border: 1px solid #eee;
+      border-radius: 16px;
+      background: #fff;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .app-icon {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 18px;
+      border-radius: 22px;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+    }
+
+    .about-card h2 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    .version {
+      margin-top: 5px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    .description {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+
+
+    /* Information */
+
+    .info-section {
+      margin-top: 25px;
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 14px;
+      background: #fafafa;
+    }
+
+    .info-section h3 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    .info-section p {
+      margin: 8px 0;
+      font-size: 15px;
+      color: #555;
+    }
+
+
+    /* Contact */
+
+    .contact-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #00a8cc;
+      text-decoration: none;
+      font-weight: 600;
+      word-break: break-word;
+    }
+
+    .contact-link:hover {
+      text-decoration: underline;
+    }
+
+
+    /* Footer */
+
+    .footer {
+      margin-top: 50px;
+      margin-bottom: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+
+    /* Mobile */
+
+    @media (max-width: 600px) {
+
+      body {
+        padding: 0 16px;
+      }
+
+      header h1 {
+        font-size: 19px;
+      }
+
+      .about-card {
+        padding: 25px 16px;
+      }
+
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+
+  <!-- Side Navigation -->
+
+  <div id="mySidenav" class="side-nav">
+
+    <a href="javascript:void(0)"
+       class="closebtn"
+       onclick="closeNav()">
+       × Close
+    </a>
+
+    <a href="#home">
+      🏠 Home
+    </a>
+
+    <a href="SettingsActivity">
+      ⚙️ Settings
+    </a>
+
+    <a href="about.html">
+      ℹ️ About Nexus Messenger
+    </a>
+
+  </div>
+
+
+  <!-- Header -->
+
+  <header>
+
+    <span
+      class="hamburger"
+      onclick="openNav()">
+      ☰
+    </span>
+
+    <h1>
+      About Nexus Messenger
+    </h1>
+
+  </header>
+
+
+  <!-- About -->
+
+  <main>
+
+    <div class="about-card">
+
+      <div class="app-icon">
+        💬
+      </div>
+
+      <h2>
+        Nexus Messenger
+      </h2>
+
+      <div class="version">
+        Version 3.1.0
+      </div>
+
+      <p class="description">
+        A modern messaging application designed
+        to help people connect and communicate.
+      </p>
+
+    </div>
+
+
+    <!-- Developer -->
+
+    <div class="info-section">
+
+      <h3>
+        About the Developer
+      </h3>
+
+      <p>
+        Nexus Messenger is created and developed
+        by <strong>SAT Limited</strong>.
+      </p>
+
+      <p>
+        SAT Limited is a technology-focused company
+        creating digital solutions and creative systems.
+      </p>
+
+    </div>
+
+
+    <!-- Technology -->
+
+    <div class="info-section">
+
+      <h3>
+        Technology
+      </h3>
+
+      <p>
+        Nexus Messenger uses Firebase to provide
+        authentication and messaging-related services.
+      </p>
+
+    </div>
+
+
+    <!-- Contact -->
+
+    <div class="info-section">
+
+      <h3>
+        Contact Us
+      </h3>
+
+      <p>
+        Have a question, suggestion, or need to
+        contact SAT Limited?
+      </p>
+
+      <a
+        class="contact-link"
+        href="mailto:sat.limited.2026@gmail.com">
+        sat.limited.2026@gmail.com
+      </a>
+
+    </div>
+
+
+  </main>
+
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    © 2026 SAT Limited
+
+    <br>
+
+    Nexus Messenger • Version 3.1.0
+
+  </footer>
+
+
+  <script>
+
+    function openNav() {
+
+      document
+        .getElementById("mySidenav")
+        .style.width = "250px";
+
+    }
+
+
+    function closeNav() {
+
+      document
+        .getElementById("mySidenav")
+        .style.width = "0";
+
+    }
+
+  </script>
+
+
+</body>
+</html>

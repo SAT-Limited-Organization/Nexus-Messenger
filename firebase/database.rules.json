@@ -1,0 +1,52 @@
+{
+  "rules": {
+    "data": {
+      "users": {
+        "$uid": {
+          ".read": true,
+          ".write": "$uid === auth.uid"
+        },
+        ".read": true,
+      },
+      "chats": {
+        "$chat": {
+          "info": {
+            ".read": true,
+            ".write": "newData.child('owner').val()===auth.uid",
+            "time": {
+              ".write": "data.exists()||newData.child('owner').val()===auth.uid"
+            }
+          },
+          "time": {
+            ".read": true,
+            ".write": true
+          }
+        },
+        ".read": true,
+      },
+      "chatMessages": {
+        "$chat": {
+          "messages": {
+            "$msgId": {
+              ".read": true,
+              ".write": "newData.child('user').val()==auth.uid"
+            }
+          }
+        },
+        ".read": true,
+      },
+      "images": {
+        "$chatId": {
+          ".read" : true,
+          "$imageId" : {
+            ".write" : "!data.exists()"
+
+          }
+
+        },
+        ".read": true
+      }
+
+    }
+  }
+}
